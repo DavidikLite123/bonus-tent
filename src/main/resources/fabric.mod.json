@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "bonus_tent",
+  "name": "Bonus Tent",
+  "version": "1.0.2-beta",
+  "description": "This mod replaces the standard vanilla bonus chest with a cozy, abandoned explorer's tent! Inside you will find a well-stocked survival chest, a barrel full of supplies, and a campfire. Perfect start for your new adventure. Created by David Lite Studio.",
+  "authors": [
+    "David Lite Studio"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/bonus_tent/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.davidlits.bonustent.BonusTentMod"
+    ]
+  },
+  "mixins": [
+    "bonus_tent.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.16.5",
+    "fabricloader": ">=0.14.0"
+  }
+}
